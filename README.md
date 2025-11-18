@@ -1,0 +1,10 @@
+# Lightweight Optimal-Transport Harmonization on Edge Devices [AAAI 2025, Oral]
+
+Arxiv: https://arxiv.org/abs/2511.12785
+
+Soorce code for our Android app for on-device real-time harmonization: https://github.com/maria-larchenko/arcore-android-sdk-harmonization
+
+
+### Abstract.
+
+Color harmonization adjusts the colors of an inserted object so that it perceptually matches the surrounding image, resulting in a seamless composite. The harmonization problem naturally arises in augmented reality (AR), yet harmonization algorithms are not currently integrated into AR pipelines because real-time solutions are scarce. In this work, we address color harmonization for AR by proposing a lightweight approach that supports on-device inference. For this, we leverage classical optimal transport theory by training a compact encoder to predict the Monge-Kantorovich transport map. We benchmark our MKL-Harmonizer algorithm against state-of-the-art methods and demonstrate that for real composite AR images our method achieves the best aggregated score. We release our dedicated AR dataset of composite images with pixel-accurate masks and data-gathering toolkit to support further data acquisition by researchers.
